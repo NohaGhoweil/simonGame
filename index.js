@@ -43,7 +43,7 @@ function checkAnswer(currentLevel){
       
 
 function startOver(){
-$("#level-title").text("Press Any Key to Start");
+$("#level-title").text("Game Over , Press Any Key to Start");
 gamePattern = [];
 userClickedPattern = [];
 levelCounter = 0;
