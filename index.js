@@ -43,14 +43,14 @@ function checkAnswer(currentLevel){
       
 
 function startOver(){
-$("#level-title").text("Game Over , Press Any Key to Start");
 gamePattern = [];
 userClickedPattern = [];
 levelCounter = 0;
 $(document).one("keypress",function(){
     nextSequence();
-    
 })
+$("#level-title").text("Game Over , Press Any Key to Start");
+
 }   
 
 
